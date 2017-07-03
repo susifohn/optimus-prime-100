@@ -1,5 +1,3 @@
-Guten Tag
-Bello
-soso, ein File geändert im Stageing.
-
+Dies ist ein readme.txt File.
+Juli 2017
 
