@@ -8,3 +8,7 @@ Note: this was ok for RUAG. Maybe beacuse login was done before via Firefox.
 Where do i put the username and password for proxy?
 	
 Use git config --global http.proxy http://mydomain\\myusername:mypassword@myproxyserver:8080 syntax to provide username/password  
+
+If git push refuses with "403 Forbidden access..."
+then enter in console: git remote set-url origin https://susifohn@github.com/susifohn/optimus-prime-100.git
+After this you should be asked for a Password if you enter git push.
