@@ -1,0 +1,10 @@
+Clone a repository on Linux via a HTTP proxy
+--------------------------------------------
+Ref: https://stackoverflow.com/questions/128035/how-do-i-pull-from-a-git-repository-through-an-http-proxy
+
+$ git config --global http.proxy http://proxy.mycompany:80
+Note: this was ok for RUAG. Maybe beacuse login was done before via Firefox.
+
+Where do i put the username and password for proxy?
+	
+Use git config --global http.proxy http://mydomain\\myusername:mypassword@myproxyserver:8080 syntax to provide username/password  
