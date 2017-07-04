@@ -9,11 +9,13 @@ Where do i put the username and password for proxy?
 	
 Use git config --global http.proxy http://mydomain\\myusername:mypassword@myproxyserver:8080 syntax to provide username/password  
 
-If git push refuses with "403 Forbidden access..."
-then enter in console: git remote set-url origin https://susifohn@github.com/susifohn/optimus-prime-100.git
-After this you should be asked for a Password if you enter git push.
+If git push refuses with "403 Forbidden access..." see message below:
 
 raksc@mdsl386 git push
 error: The requested URL returned error: 403 Forbidden while accessing
 https://github.com/susifohn/optimus-prime-100.git/info/refs
+
+then enter in console: git remote set-url origin https://susifohn@github.com/susifohn/optimus-prime-100.git
+After this you should be asked for a Password if you enter git push.
+
 
